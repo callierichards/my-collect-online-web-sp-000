@@ -1,4 +1,4 @@
 def my_collect(collection)
-empty_array = [ ]
-counter += 1
-end 
+  my_collect(array) do |name|
+    name.split(" ").first 
+end
